@@ -1,0 +1,98 @@
+.main {
+    width: 80%;
+    margin: auto;
+}
+.form-section{
+    display: flex;
+    justify-content: center;
+}
+.text-container-head{
+    display: flex;
+    justify-content: center;
+}
+
+.text-container h2 {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.text-container p {
+    font-size: 20px;
+}
+
+.personal-details {
+    display: flex;
+}
+
+.selection {
+    display: flex;
+}
+.form-input{
+    margin-left: 10px;
+}
+.form-input input , .form-input select{
+    padding: 20px 95px 20px 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+/* .form-input select {
+    padding-left: 27px;
+} */
+.input-massage textarea{
+    border-radius: 5px;
+    margin-left: 5px;
+    display: block;
+    padding-right: 260px;
+}
+.input-massage button{
+    margin: 10px 0 0 5px;
+    padding: 20px 230px;
+    border-radius: 5px;
+    background-color: rgb(1, 27, 27);
+    border: none;
+    color: antiquewhite;
+    cursor: pointer;
+}
+.form{
+    background-color: goldenrod;
+    border-radius: 10px;
+    padding: 100px;
+}
+/* responsive layout */
+
+/* small devices  */
+
+@media screen and (max-width: 576px) {
+    .main {
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .text-container h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .text-container p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .personal-details, .selection{
+        flex-direction: column;
+    }
+    .form{
+        padding: 5px;
+    }
+    .input-massage textarea{
+        padding: 0;
+    }
+    .input-massage button{
+        padding: 20px 95px;
+    }
+    .text-container-head{
+        display: flex;
+        justify-content: center;
+    }
+}
